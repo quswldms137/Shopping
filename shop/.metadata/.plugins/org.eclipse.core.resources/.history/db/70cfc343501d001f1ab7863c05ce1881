@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+.container, h2 {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column; 
+}
+h2{padding:10px;}
+
+
+</style>
+</head>
+<body>
+<header>
+	<%@ include file="header.jsp" %>
+</header>
+<session>
+<hr>
+<h2>관리자페이지</h2>
+<br>
+<div class="container">
+<a href="productRegistForm">상품등록</a>
+<table border="1">
+	<tr>
+		<td>${product.pname }</td>
+	</tr>
+</table>
+</div>
+</session>
+</body>
+</html>

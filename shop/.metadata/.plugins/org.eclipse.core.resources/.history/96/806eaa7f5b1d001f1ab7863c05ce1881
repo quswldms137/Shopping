@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<header>
+	<%@ include file="header.jsp" %>
+</header>
+<session>
+<hr>
+<h2>상품등록</h2>
+<br>
+<form action="productRegist" method="post">
+	<input type="text" name="pname" placehoder="상품이름"><br>
+	<input type="text" name="price" placehoder="상품가격"><br>
+	<input type="text" name="pitem" placehoder="상품품목"><br>
+	<input type="text" name="stock" placehoder="재고수량"><br>
+	<input type="text" name="sales" value="0"><br>
+	<input type="file" name="url" placehoder="상품이미지"><br>
+	<input type="submit" value="상품등록">	
+</form>
+</session>
+</body>
+</html>

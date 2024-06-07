@@ -1,0 +1,10 @@
+
+5월 29, 2024 09:10:51.53 NEW SESSION
+5월 29, 2024 09:10:51.53 Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 29, 2024 09:18:49.11 [952:2200:0529/091849.113:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 29, 2024 09:22:45.93 [952:2200:0529/092245.939:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 29, 2024 15:27:35.77 [952:10988:0529/152735.778:ERROR:cert_verify_proc_builtin.cc(1051)] CertVerifyProcBuiltin for trace.sta1.co.kr failed:
+5월 29, 2024 15:27:35.77 ----- Certificate i=0 (CN=trace.sta1.co.kr) -----
+5월 29, 2024 15:27:35.77 ERROR: Time is after notAfter
+5월 29, 2024 15:27:35.77 
+5월 29, 2024 15:27:35.77 
